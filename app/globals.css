@@ -2,20 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-/* :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-} */
-
 body {
   @apply bg-white;
+}
+
+.title {
+  @apply tracking-wide text-lg;
+}
+
+.subtitle {
+  @apply font-subheadingFont text-xs md:text-sm text-redish uppercase;
+}
+
+section {
+  @apply overflow-hidden;
+}
+
+.feature_p {
+  @apply text-xs xl:text-sm font-subheadingFont text-center max-w-[250px] mx-auto leading-5;
 }

@@ -10,7 +10,11 @@ const config: Config = {
     colors: {
       redish: "#ED4A60",
       yellowish: "#FDDA79",
+      grey: "#F7F6F1",
+      greyShade: "#6A6A6A",
+      greyShade2: "#E6E6E6",
       white: "#fff",
+      black: "#000000",
     },
 
     extend: {

@@ -4,8 +4,8 @@ import featherImg from "../public/assets/feathers.svg";
 
 export default function Hero() {
   return (
-    <section>
-      <div className="min-h-screen relative bg-redish pt-8 w-full">
+    <section className="">
+      <div className="min-h-screen bg-redish pt-8 w-full">
         <nav className="bg-white mx-8 h-16 rounded-full text-xs">
           <div className="flex items-center h-full justify-between px-4">
             <Link href="/" className="font-pacifico text-base">
@@ -40,7 +40,7 @@ export default function Hero() {
         </nav>
 
         <div className="mt-20">
-          <div className="w-full relative">
+          <div className="w-full">
             <div className="text-center space-y-6 text-white">
               <h1 className="text-4xl max-w-xl mx-auto leading-[3rem] tracking-wide">
                 Discover Insights, Inspiration & Growth in Every Inbox
@@ -76,8 +76,8 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className="absolute right-0 left-0 bottom-0 overflow-hidden">
-          <div className="w-full flex justify-between -mb-8">
+        <div className="relative">
+          <div className="w-full flex justify-between items-start">
             <Image
               src="/assets/femalebakerdecoratingcake.png"
               alt="female baker decorating"
@@ -89,7 +89,7 @@ export default function Hero() {
             <Image
               src="/assets/manwithpetdog.png"
               alt="female baker decorating"
-              className="w-auto h-auto -mr-8"
+              className="w-auto h-auto -mr-8 mt-2"
               width={0}
               height={0}
               sizes="100vw"
