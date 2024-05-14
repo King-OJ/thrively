@@ -18,6 +18,10 @@ section {
   @apply overflow-hidden;
 }
 
+p {
+  @apply leading-5;
+}
+
 .feature_p {
   @apply text-xs xl:text-sm font-subheadingFont text-center max-w-[250px] mx-auto leading-5;
 }

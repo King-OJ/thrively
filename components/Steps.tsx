@@ -20,7 +20,7 @@ export default function Steps() {
               <span className="ml-1">
                 <Image
                   src="/assets/ooui_next-ltr.png"
-                  alt="woman"
+                  alt="arrow"
                   width={0}
                   height={0}
                   sizes="100vw"

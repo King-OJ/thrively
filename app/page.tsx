@@ -1,3 +1,4 @@
+import Articles from "@/components/Articles";
 import Hero from "@/components/Hero";
 import Steps from "@/components/Steps";
 import WhatYouGet from "@/components/WhatYouGet";
@@ -10,6 +11,7 @@ export default function Home() {
       <WhoAreWe />
       <WhatYouGet />
       <Steps />
+      <Articles />
     </main>
   );
 }
