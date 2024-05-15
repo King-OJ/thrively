@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function WhatYouGet() {
   return (
     <section>
-      <div className="mx-8 md:mx-10 my-5 md:my-6 border border-opacity-30 border-black bg-grey md:px-12 px-4 py-12 md:py-20 rounded-2xl">
+      <div className="mx-6 md:mx-10 my-5 md:my-6 border border-opacity-30 border-black bg-grey md:px-12 px-4 py-12 md:py-20 rounded-2xl">
         <div className="space-y-16 pb-16 border-black border-b border-opacity-30">
           <div className="space-y-4 text-center ">
             <h4 className="subtitle">our offers</h4>

@@ -72,7 +72,7 @@ export default function Hero() {
               <Image src={featherImg} alt="feathers" />
             </div>
 
-            <div className="absolute right-8 -bottom-14 md:right-32 md:bottom-32">
+            <div className="absolute right-8 -bottom-16 md:right-32 md:bottom-32">
               <Image
                 src={featherImg}
                 alt="feathers"
