@@ -41,7 +41,7 @@ export default function Hero() {
           </div>
         </nav>
 
-        <div className="my-24 md:mt-20 mx-6 md:mx-10">
+        <div className="my-12 md:my-24 md:mt-20 mx-6 md:mx-10">
           <div className="w-full relative md:static">
             <div className="text-center space-y-6 text-white">
               <h1 className="text-2xl md:text-4xl max-w-xl mx-auto md:leading-[3rem] tracking-wide">

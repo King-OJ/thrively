@@ -166,7 +166,7 @@ export default function WhatYouGet() {
                 </div>
               </div>
             </li>
-            <li className="w-full flex md:items-center gap-1 md:gap-20">
+            <li className="w-full flex md:items-center gap-4 md:gap-20">
               <div className="md:px-6">
                 <Image
                   src="/assets/femalebakerdecoratingcake.png"

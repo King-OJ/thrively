@@ -25,11 +25,11 @@ export default function Footer() {
                     Join the Newsletter
                   </button>
                 </form>
-                <div className="absolute right-4 top-0 md:-right-20 md:top-6">
+                <div className="absolute  right-4 top-0 md:-right-20 md:top-6">
                   <Image
                     src={featherImg}
                     alt="feathers"
-                    className="-scale-x-[1] scale-50 md:scale-100"
+                    className="-scale-x-[1] p-2 md:p-0"
                   />
                 </div>
               </div>
