@@ -87,7 +87,7 @@ export default function Hero() {
             <Image
               src="/assets/femalebakerdecoratingcake.png"
               alt="female baker decorating"
-              className="w-auto h-auto -scale-x-[1] -ml-8"
+              className="w-auto h-auto -scale-x-[1] -ml-4 md:-ml-8"
               width={0}
               height={0}
               sizes="100vw"
@@ -95,7 +95,7 @@ export default function Hero() {
             <Image
               src="/assets/manwithpetdog.png"
               alt="female baker decorating"
-              className="w-auto h-auto -mr-8 mt-2"
+              className="w-auto h-auto -mr-4 md:-mr-8 mt-2"
               width={0}
               height={0}
               sizes="100vw"
