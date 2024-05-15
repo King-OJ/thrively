@@ -53,7 +53,7 @@ export default function Steps() {
               <span className="text-greyShade">3</span>
             </div>
             <span className="text-sm text-greyShade max-w-xs">
-              Once confirmed, you're all set!
+              Once confirmed, you are all set!
             </span>
           </li>
         </ul>
