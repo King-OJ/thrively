@@ -5,7 +5,7 @@ import featherImg from "../public/assets/feathers.svg";
 export default function Hero() {
   return (
     <section className="">
-      <div className="min-h-screen bg-redish pt-8 w-full">
+      <div className="min-h-screen overflow-hidden bg-redish pt-8 w-full">
         <nav className="bg-white mx-6 md:mx-10 h-10 md:h-14 rounded-full text-xs">
           <div className="flex items-center h-full justify-between px-4">
             <Link href="/" className="font-pacifico text-base">
