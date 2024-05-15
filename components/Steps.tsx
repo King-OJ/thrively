@@ -32,25 +32,25 @@ export default function Steps() {
         </div>
 
         <ul className="space-y-6 md:space-y-8 divide-greyShade2 divide-y-[1px]">
-          <li className="flex items-center space-x-6 md:space-x-8 flex-1 w-full">
+          <li className="flex items-center space-x-4 md:space-x-8 flex-1 w-full">
             <div className="rounded-full h-10 w-10 md:h-12 md:w-12 grid place-content-center bg-grey border-[1px] border-greyShade2">
-              <span className="text-greyShade">1</span>
+              <span className="text-greyShade text-sm md:text-base">1</span>
             </div>
             <span className="text-sm text-greyShade max-w-xs">
               Enter your email address and click subscribe on the form
             </span>
           </li>
-          <li className="flex items-center space-x-6 md:space-x-8 flex-1 w-full pt-4 md:pt-6">
+          <li className="flex items-center space-x-4 md:space-x-8 flex-1 w-full pt-4 md:pt-6">
             <div className="rounded-full h-10 w-10 md:h-12 md:w-12 grid place-content-center bg-grey border-[1px] border-greyShade2">
-              <span className="text-greyShade">2</span>
+              <span className="text-greyShade text-sm md:text-base">2</span>
             </div>
             <span className="text-sm text-greyShade max-w-xs">
               Check your inbox for a confirmation email
             </span>
           </li>
-          <li className="flex items-center space-x-6 md:space-x-8 flex-1 w-full pt-4 md:pt-6">
+          <li className="flex items-center space-x-4 md:space-x-8 flex-1 w-full pt-4 md:pt-6">
             <div className="rounded-full h-10 w-10 md:h-12 md:w-12 grid place-content-center bg-grey border-[1px] border-greyShade2">
-              <span className="text-greyShade">3</span>
+              <span className="text-greyShade text-sm md:text-base">3</span>
             </div>
             <span className="text-sm text-greyShade max-w-xs">
               Once confirmed, you are all set!

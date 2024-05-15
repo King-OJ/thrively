@@ -81,7 +81,7 @@ export default function WhatYouGet() {
               </div>
 
               <div className="flex-1 flex flex-row-reverse items-end justify-between">
-                <div className="max-w-sm md:max-w-md xl:max-w-xl pr-2 md:pr-8">
+                <div className="max-w-sm md:max-w-md xl:max-w-xl md:pr-8">
                   <h3 className="capitalize text-base md:text-lg">
                     Growth in every inbox
                   </h3>
@@ -106,7 +106,7 @@ export default function WhatYouGet() {
                   </button>
                 </div>
 
-                <div className="mr-1 md:mr-12">
+                <div className="md:mr-12">
                   <Image
                     src="/assets/right_scribble.png"
                     alt="scribble"
@@ -155,7 +155,7 @@ export default function WhatYouGet() {
                   </button>
                 </div>
 
-                <div className="ml-1 md:ml-12">
+                <div className="md:ml-12">
                   <Image
                     src="/assets/right_scribble.png"
                     alt="scribble"
@@ -178,8 +178,8 @@ export default function WhatYouGet() {
                 />
               </div>
 
-              <div className="flex-1 flex flex-row-reverse items-end justify-between">
-                <div className="max-w-sm md:max-w-md xl:max-w-xl pr-2 md:pr-8">
+              <div className="flex-1 flex flex-row-reverse">
+                <div className="max-w-sm md:max-w-md xl:max-w-xl md:pr-8">
                   <h3 className="capitalize text-base md:text-lg">
                     Find What You Love
                   </h3>

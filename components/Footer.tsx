@@ -29,7 +29,7 @@ export default function Footer() {
                   <Image
                     src={featherImg}
                     alt="feathers"
-                    className="-scale-x-[1]"
+                    className="-scale-x-[1] scale-50 md:scale-100"
                   />
                 </div>
               </div>
