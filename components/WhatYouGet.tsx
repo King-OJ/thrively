@@ -3,14 +3,14 @@ import Image from "next/image";
 export default function WhatYouGet() {
   return (
     <section>
-      <div className="mx-6 md:mx-10 my-5 md:my-6 border border-opacity-30 border-black bg-grey md:px-12 px-4 py-12 md:py-20 rounded-2xl">
+      <div className="mx-4 md:mx-10 my-5 md:my-6 border border-opacity-30 border-black bg-grey md:px-12 px-2 py-12 md:py-20 rounded-2xl">
         <div className="space-y-16 pb-16 border-black border-b border-opacity-30">
           <div className="space-y-4 text-center ">
             <h4 className="subtitle">our offers</h4>
             <h2 className="title">What you get from Thrively</h2>
           </div>
 
-          <ul className="grid md:grid-flow-col md:items-end md:grid-cols-3 gap-6">
+          <ul className="grid md:grid-flow-col md:items-end md:grid-cols-3 gap-8 md:gap-6">
             <li className="flex flex-col space-y-4 items-center">
               <Image
                 src="/assets/newsletter_icon.png"
@@ -76,7 +76,7 @@ export default function WhatYouGet() {
                   width={0}
                   height={0}
                   sizes="100vw"
-                  className="w-auto h-auto p-1 md:p-0"
+                  className="w-auto h-auto"
                 />
               </div>
 
@@ -125,7 +125,7 @@ export default function WhatYouGet() {
                   width={0}
                   height={0}
                   sizes="100vw"
-                  className="w-auto h-auto -scale-x-[1] p-1 md:p-0"
+                  className="w-auto h-auto -scale-x-[1] "
                 />
               </div>
 
@@ -174,7 +174,7 @@ export default function WhatYouGet() {
                   width={0}
                   height={0}
                   sizes="100vw"
-                  className="w-auto h-auto -scale-x-[1] p-1 md:p-0"
+                  className="w-auto h-auto -scale-x-[1]"
                 />
               </div>
 

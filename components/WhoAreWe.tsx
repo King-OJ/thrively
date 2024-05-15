@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function WhoAreWe() {
   return (
-    <section className=" md:-mt-[50px] bg-white relative rounded-tr-2xl rounded rounded-tl-2xl overflow-hidden">
+    <section className="-mt-[20px] md:-mt-[50px] bg-white relative rounded-tr-2xl rounded rounded-tl-2xl overflow-hidden">
       <div className="max-w-xl mx-6 md:mx-auto pt-10 pb-20 md:py-20">
         <h4 className="subtitle">who are we ?</h4>
         <p className="mt-6 text-base md:text-lg ">
