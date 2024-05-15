@@ -6,13 +6,13 @@ export default function Hero() {
   return (
     <section className="">
       <div className="min-h-screen bg-redish pt-8 w-full">
-        <nav className="bg-white mx-8 md:mx-10 h-10 md:h-14 rounded-full text-xs">
+        <nav className="bg-white mx-6 md:mx-10 h-10 md:h-14 rounded-full text-xs">
           <div className="flex items-center h-full justify-between px-4">
             <Link href="/" className="font-pacifico text-base">
               Thrively
             </Link>
 
-            <ul className="space-x-2 md:space-x-6 flex items-center">
+            <ul className="hidden space-x-2 md:space-x-6 md:flex items-center">
               <li>Books</li>
               <li>Documentary</li>
               <li>Careers</li>
@@ -41,7 +41,7 @@ export default function Hero() {
           </div>
         </nav>
 
-        <div className="my-24 md:mt-20">
+        <div className="my-24 md:mt-20 mx-6 md:mx-10">
           <div className="w-full relative md:static">
             <div className="text-center space-y-6 text-white">
               <h1 className="text-2xl md:text-4xl max-w-xl mx-auto md:leading-[3rem] tracking-wide">

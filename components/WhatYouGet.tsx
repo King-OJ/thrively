@@ -68,8 +68,8 @@ export default function WhatYouGet() {
 
         <div className="pt-16">
           <ul className="space-y-20">
-            <li className="w-full flex md:items-center gap-6 md:gap-20">
-              <div className="px-2 md:px-6">
+            <li className="w-full flex md:items-center gap-2 md:gap-20">
+              <div className="px-1 md:px-6">
                 <Image
                   src="/assets/womanenjoyingspatreatment.png"
                   alt="woman"
@@ -117,8 +117,8 @@ export default function WhatYouGet() {
                 </div>
               </div>
             </li>
-            <li className="w-full flex flex-row-reverse md:items-center gap-6 md:gap-20">
-              <div className="px-2 md:px-6">
+            <li className="w-full flex flex-row-reverse md:items-center gap-2 md:gap-20">
+              <div className="px-1 md:px-6">
                 <Image
                   src="/assets/mancelebrateswinning.png"
                   alt="man celebrate"
@@ -166,8 +166,8 @@ export default function WhatYouGet() {
                 </div>
               </div>
             </li>
-            <li className="w-full flex md:items-center gap-6 md:gap-20">
-              <div className="px-2 md:px-6">
+            <li className="w-full flex md:items-center gap-2 md:gap-20">
+              <div className="px-1 md:px-6">
                 <Image
                   src="/assets/femalebakerdecoratingcake.png"
                   alt="woman decorating"

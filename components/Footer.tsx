@@ -35,7 +35,7 @@ export default function Footer() {
               </div>
 
               <div className="max-w-md md:mx-auto">
-                <ul className="flex space-x-16 font-subheadingFont">
+                <ul className="flex space-x-8 md:space-x-16 font-subheadingFont">
                   <li className="text-sm">
                     <h6 className="mb-[6px] font-subheadingBoldFont">Pages</h6>
                     <ul className="space-y-2 capitalize">
