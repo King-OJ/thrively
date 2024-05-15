@@ -1,4 +1,5 @@
 import Articles from "@/components/Articles";
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Steps from "@/components/Steps";
 import WhatYouGet from "@/components/WhatYouGet";
@@ -12,6 +13,7 @@ export default function Home() {
       <WhatYouGet />
       <Steps />
       <Articles />
+      <Footer />
     </main>
   );
 }

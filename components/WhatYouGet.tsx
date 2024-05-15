@@ -3,21 +3,21 @@ import Image from "next/image";
 export default function WhatYouGet() {
   return (
     <section>
-      <div className="mx-8 my-6 border border-opacity-30 border-black bg-grey px-12 py-20 rounded-2xl">
+      <div className="mx-8 md:mx-10 my-5 md:my-6 border border-opacity-30 border-black bg-grey md:px-12 px-8 py-12 md:py-20 rounded-2xl">
         <div className="space-y-16 pb-16 border-black border-b border-opacity-30">
           <div className="space-y-4 text-center ">
             <h4 className="subtitle">our offers</h4>
             <h2 className="title">What you get from Thrively</h2>
           </div>
 
-          <ul className="grid grid-flow-col items-end grid-cols-3 gap-6">
+          <ul className="grid md:grid-flow-col md:items-end md:grid-cols-3 gap-6">
             <li className="flex flex-col space-y-4 items-center">
               <Image
                 src="/assets/newsletter_icon.png"
                 alt="newsletter"
                 width={100}
                 height={71}
-                className=""
+                className="w-auto h-auto"
               />
               <div className="space-y-2">
                 <h3 className="capitalize text-sm text-center ">
@@ -35,7 +35,7 @@ export default function WhatYouGet() {
                 alt="newsletter"
                 width={100}
                 height={75}
-                className=""
+                className="w-auto h-auto"
               />
               <div className="space-y-2">
                 <h3 className="capitalize text-sm text-center">
@@ -53,7 +53,7 @@ export default function WhatYouGet() {
                 alt="tent"
                 width={100}
                 height={79}
-                className=""
+                className="w-auto h-auto"
               />
               <div className="space-y-2">
                 <h3 className="capitalize text-sm text-center">community</h3>
@@ -68,8 +68,8 @@ export default function WhatYouGet() {
 
         <div className="pt-16">
           <ul className="space-y-20">
-            <li className="w-full flex items-center gap-20">
-              <div className="px-6">
+            <li className="w-full flex md:items-center gap-6 md:gap-20">
+              <div className="px-2 md:px-6">
                 <Image
                   src="/assets/womanenjoyingspatreatment.png"
                   alt="woman"
@@ -81,15 +81,17 @@ export default function WhatYouGet() {
               </div>
 
               <div className="flex-1 flex flex-row-reverse items-end justify-between">
-                <div className="max-w-sm md:max-w-md xl:max-w-xl pr-8">
-                  <h3 className="capitalize text-lg">Growth in every inbox</h3>
-                  <p className="my-4 text-sm xl:text-base font-subheadingFont text-greyShade leading-6">
+                <div className="max-w-sm md:max-w-md xl:max-w-xl pr-2 md:pr-8">
+                  <h3 className="capitalize text-base md:text-lg">
+                    Growth in every inbox
+                  </h3>
+                  <p className="my-4 text-sm xl:text-base font-subheadingBoldFont text-greyShade leading-6">
                     Receive curated content, expert insights, and actionable
                     tips delivered straight to your inbox, empowering you to
                     grow personally and socially with each message.
                   </p>
 
-                  <button className="mt-16 subtitle flex items-center">
+                  <button className="mt-12 subtitle flex items-center">
                     learn more{" "}
                     <span className="ml-1">
                       <Image
@@ -104,7 +106,7 @@ export default function WhatYouGet() {
                   </button>
                 </div>
 
-                <div className="mr-12">
+                <div className="mr-6 md:mr-12">
                   <Image
                     src="/assets/right_scribble.png"
                     alt="scribble"
@@ -115,8 +117,8 @@ export default function WhatYouGet() {
                 </div>
               </div>
             </li>
-            <li className="w-full flex flex-row-reverse items-center gap-20">
-              <div className="px-6">
+            <li className="w-full flex flex-row-reverse md:items-center gap-6 md:gap-20">
+              <div className="px-2 md:px-6">
                 <Image
                   src="/assets/mancelebrateswinning.png"
                   alt="man celebrate"
@@ -128,15 +130,17 @@ export default function WhatYouGet() {
               </div>
 
               <div className="flex-1 flex items-end justify-between">
-                <div className="max-w-sm md:max-w-md xl:max-w-xl pl-8">
-                  <h3 className="capitalize text-lg">community connection</h3>
-                  <p className="my-4 text-sm xl:text-base font-subheadingFont text-greyShade leading-6">
+                <div className="max-w-sm md:max-w-md xl:max-w-xl pl-2 md:pl-8">
+                  <h3 className="capitalize text-base md:text-lg">
+                    community connection
+                  </h3>
+                  <p className="my-4 text-sm xl:text-base font-subheadingBoldFont text-greyShade leading-6">
                     Engage with fellow subscribers, share your experiences, and
                     foster meaningful connections as you journey towards
                     self-improvement together.
                   </p>
 
-                  <button className="mt-16 subtitle flex items-center">
+                  <button className="mt-12 subtitle flex items-center">
                     learn more{" "}
                     <span className="ml-1">
                       <Image
@@ -151,7 +155,7 @@ export default function WhatYouGet() {
                   </button>
                 </div>
 
-                <div className="ml-12">
+                <div className="ml-6 md:ml-12">
                   <Image
                     src="/assets/right_scribble.png"
                     alt="scribble"
@@ -162,8 +166,8 @@ export default function WhatYouGet() {
                 </div>
               </div>
             </li>
-            <li className="w-full flex items-center gap-20">
-              <div className="px-6">
+            <li className="w-full flex md:items-center gap-6 md:gap-20">
+              <div className="px-2 md:px-6">
                 <Image
                   src="/assets/femalebakerdecoratingcake.png"
                   alt="woman decorating"
@@ -175,15 +179,17 @@ export default function WhatYouGet() {
               </div>
 
               <div className="flex-1 flex flex-row-reverse items-end justify-between">
-                <div className="max-w-sm md:max-w-md xl:max-w-xl pr-8">
-                  <h3 className="capitalize text-lg">Find What You Love</h3>
-                  <p className="my-4 text-sm xl:text-base font-subheadingFont text-greyShade leading-6">
+                <div className="max-w-sm md:max-w-md xl:max-w-xl pr-2 md:pr-8">
+                  <h3 className="capitalize text-base md:text-lg">
+                    Find What You Love
+                  </h3>
+                  <p className="my-4 text-sm xl:text-base font-subheadingBoldFont text-greyShade leading-6">
                     From career advice to mindfulness practices, our newsletter
                     covers a wide range of subjects, ensuring you find
                     inspiration and enjoyment in every issue.
                   </p>
 
-                  <button className="mt-16 subtitle flex items-center">
+                  <button className="mt-12 subtitle flex items-center">
                     learn more{" "}
                     <span className="ml-1">
                       <Image

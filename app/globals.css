@@ -11,7 +11,7 @@ body {
 }
 
 .subtitle {
-  @apply font-subheadingFont text-xs md:text-sm text-redish uppercase;
+  @apply font-subheadingBoldFont text-sm text-redish uppercase;
 }
 
 section {
@@ -23,5 +23,5 @@ p {
 }
 
 .feature_p {
-  @apply text-xs xl:text-sm font-subheadingFont text-center max-w-[250px] mx-auto leading-5;
+  @apply text-sm md:text-xs xl:text-sm font-subheadingFont text-center max-w-sm md:max-w-[250px] xl:max-w-[300px] mx-auto leading-5;
 }

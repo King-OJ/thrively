@@ -15,8 +15,13 @@ const garnettMedium = localFont({
 });
 
 const gtAmericaTrial = localFont({
-  src: "../public/font/GT-America-Standard-Regular-Trial.otf",
+  src: "../public/font/GT-America-Standard-Thin-Trial.otf",
   variable: "--gtAmericaTrial",
+});
+
+const gtAmericaTrialRegular = localFont({
+  src: "../public/font/GT-America-Standard-Regular-Trial.otf",
+  variable: "--gtAmericaTrialRegular",
 });
 
 export const metadata: Metadata = {
@@ -32,7 +37,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${garnettMedium.variable} ${pacifico.variable}  ${gtAmericaTrial.variable} font-sans`}
+        className={`${garnettMedium.variable} ${pacifico.variable} ${gtAmericaTrialRegular.variable}  ${gtAmericaTrial.variable} font-sans`}
       >
         {children}
       </body>

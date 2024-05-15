@@ -22,6 +22,7 @@ const config: Config = {
         sans: ["var(--garnett-medium)"],
         pacifico: ["var(--pacifico)"],
         subheadingFont: ["var(--gtAmericaTrial)"],
+        subheadingBoldFont: ["var(--gtAmericaTrialRegular)"],
       },
     },
   },
