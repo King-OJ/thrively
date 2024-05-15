@@ -9,7 +9,7 @@ export default function Articles() {
           <h2 className="title">Get insights and inspiration</h2>
         </div>
 
-        <ul className="mt-16 mb-12 grid md:grid-cols-3 md:grid-flow-col gap-10">
+        <ul className="mt-10 md:mt-16 mb-12 grid md:grid-cols-3 md:grid-flow-col gap-10">
           <li className="relative">
             <div className="relative top-0 right-0 h-full w-full bg-white left-0 bottom-0 p-3 z-20 rounded-2xl border">
               <div className="flex flex-col items-center space-y-3">

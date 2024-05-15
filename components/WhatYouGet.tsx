@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function WhatYouGet() {
   return (
     <section>
-      <div className="mx-8 md:mx-10 my-5 md:my-6 border border-opacity-30 border-black bg-grey md:px-12 px-8 py-12 md:py-20 rounded-2xl">
+      <div className="mx-8 md:mx-10 my-5 md:my-6 border border-opacity-30 border-black bg-grey md:px-12 px-4 py-12 md:py-20 rounded-2xl">
         <div className="space-y-16 pb-16 border-black border-b border-opacity-30">
           <div className="space-y-4 text-center ">
             <h4 className="subtitle">our offers</h4>
@@ -68,15 +68,15 @@ export default function WhatYouGet() {
 
         <div className="pt-16">
           <ul className="space-y-20">
-            <li className="w-full flex md:items-center gap-2 md:gap-20">
-              <div className="px-1 md:px-6">
+            <li className="w-full flex md:items-center gap-1 md:gap-20">
+              <div className="md:px-6">
                 <Image
                   src="/assets/womanenjoyingspatreatment.png"
                   alt="woman"
                   width={0}
                   height={0}
                   sizes="100vw"
-                  className="w-auto h-auto"
+                  className="w-auto h-auto p-1 md:p-0"
                 />
               </div>
 
@@ -92,7 +92,7 @@ export default function WhatYouGet() {
                   </p>
 
                   <button className="mt-12 subtitle flex items-center">
-                    learn more{" "}
+                    learn more
                     <span className="ml-1">
                       <Image
                         src="/assets/ooui_next-ltr.png"
@@ -106,7 +106,7 @@ export default function WhatYouGet() {
                   </button>
                 </div>
 
-                <div className="mr-6 md:mr-12">
+                <div className="mr-1 md:mr-12">
                   <Image
                     src="/assets/right_scribble.png"
                     alt="scribble"
@@ -117,15 +117,15 @@ export default function WhatYouGet() {
                 </div>
               </div>
             </li>
-            <li className="w-full flex flex-row-reverse md:items-center gap-2 md:gap-20">
-              <div className="px-1 md:px-6">
+            <li className="w-full flex flex-row-reverse md:items-center gap-1 md:gap-20">
+              <div className="md:px-6">
                 <Image
                   src="/assets/mancelebrateswinning.png"
                   alt="man celebrate"
                   width={0}
                   height={0}
                   sizes="100vw"
-                  className="w-auto h-auto -scale-x-[1]"
+                  className="w-auto h-auto -scale-x-[1] p-1 md:p-0"
                 />
               </div>
 
@@ -155,7 +155,7 @@ export default function WhatYouGet() {
                   </button>
                 </div>
 
-                <div className="ml-6 md:ml-12">
+                <div className="ml-1 md:ml-12">
                   <Image
                     src="/assets/right_scribble.png"
                     alt="scribble"
@@ -166,15 +166,15 @@ export default function WhatYouGet() {
                 </div>
               </div>
             </li>
-            <li className="w-full flex md:items-center gap-2 md:gap-20">
-              <div className="px-1 md:px-6">
+            <li className="w-full flex md:items-center gap-1 md:gap-20">
+              <div className="md:px-6">
                 <Image
                   src="/assets/femalebakerdecoratingcake.png"
                   alt="woman decorating"
                   width={0}
                   height={0}
                   sizes="100vw"
-                  className="w-auto h-auto -scale-x-[1]"
+                  className="w-auto h-auto -scale-x-[1] p-1 md:p-0"
                 />
               </div>
 
