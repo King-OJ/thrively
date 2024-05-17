@@ -19,7 +19,7 @@ export default function Footer() {
                   <input
                     type="text"
                     placeholder="enter your email"
-                    className="flex-1 h-full text-black pl-4 placeholder:capitalize outline-none"
+                    className="flex-1 h-full text-black pl-4 placeholder:capitalize outline-none text-[17px]"
                   />
                   <button className="bg-yellowish h-full px-3 md:px-6 text-black rounded-full">
                     Join the Newsletter

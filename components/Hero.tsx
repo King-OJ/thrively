@@ -60,7 +60,7 @@ export default function Hero() {
                 <input
                   type="text"
                   placeholder="enter your email"
-                  className="flex-1 h-full pl-4 placeholder:capitalize outline-none"
+                  className="flex-1 text-[17px] h-full pl-4 placeholder:capitalize outline-none"
                 />
                 <button className="bg-yellowish h-full px-6 rounded-full">
                   Join the Newsletter
